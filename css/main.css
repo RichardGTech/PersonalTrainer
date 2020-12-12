@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;500;700&display=swap');
+
+html, body {
+    background: white;
+    font-family: 'Noto Sans TC', sans-serif;
+    height: 100%;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.background {
+    height: 75%;
+    background-image: url("https://cdn.shopify.com/s/files/1/0009/1112/products/personal-trainer_1800x.jpg?v=1586368428");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    opacity: .5;
+}
+
+header {
+    display: flex;
+    background: rgba(206,206,206, .5);
+    padding: 30px;
+    transition: all .4s ease-in-out;
+}
+
+header:hover {
+    background: rgba(0, 0, 0, .5);
+}
+
+header .main-menu {
+    display: flex;
+}
+
+header .main-menu .logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #F6FDF5;
+    cursor: pointer;
+}
+
+header .main-menu .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+}
+
+header .main-menu .menu a {
+    padding: 0 5px;
+    text-decoration: none;
+    color: #F6FDF5;
+}
+
+#hero {
+    margin-top: 100px;
+    padding: 80px;
+}
+
+#hero .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #F6FDF5;
+    text-transform: uppercase;
+    margin-top: -100px;
+    color: #010101;
+}
+
+#hero .text-container h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 10px 0;
+    color: #CECECE;
+}
+
+#hero .text-container br h1{
+    font-size: 4.5rem;
+} 
+
+#hero .text-container h4 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+#about {
+    margin-top: 60px;
+}
+
+#about .image {
+    width: 35%;
+    height: 350px;
+}
+
+#about .summary {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    bottom: 400px;
+    margin-left: 250px;
+}
+
+#about .summary h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#about .summary p {
+    font-size: .8rem;
+    text-align: center;
+    line-height: 1.4;
+}
+
+#program-section {
+    margin-top: -250px;
+}
+#program-section .program-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #CECECE;
+    padding-bottom: 30px;
+}
+
+#program-section .programs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 30px 0;
+}
+
+#program-section .programs .program {
+    height: 150px;
+    border-radius: 4px;
+    width: 300px;
+    -webkit-box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.45);
+}
+
+#program-section .programs .program .info .fa {
+    font-size: 2rem;
+    margin-left: 45%;
+    padding: 10px 0;
+}
+
+#program-section .programs .program .info .program-type {
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    font-weight: 600;
+    font-size: .8rem;
+}
+
+footer {
+    background: #96C7F5;
+    height: 200px;
+    padding: 20px 0;
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 200px;
+}
+
+footer .footer-container .goals  .name {
+    color: #010101;
+    font-size: 1.2rem;
+    padding: 10px 0;
+}
+
+footer .footer-container .goals  span {
+    color: #010101;
+    font-size: .6rem;
+}
+
+
+footer .footer-container .social-icons .fa {
+    color: #010101;
+    font-size: 1.3rem;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+
+footer .footer-container .contact-info .name{
+    color: #010101;
+    font-size: 1.2rem;
+    padding: 10px 0;
+}
+
+footer .footer-container .contact-info .contact-icons {
+    display: grid;
+    padding: 10px 0;
+}
+
+footer .footer-container .contact-info .contact-icons .fa {
+    padding: 5px;
+}
+
+footer .footer-container .contact-info .contact-icons .phone {
+    display: inline-block;
+}
+
+footer .footer-container .contact-info .contact-icons .email {
+    display: inline-block;
+}
+
+footer .footer-container .contact-info .contact-icons .address {
+    display: inline-block;
+}
